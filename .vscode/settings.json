@@ -1,0 +1,23 @@
+
+    {
+        "codemagic.projectPath.android": "path/to/android",
+        "codemagic.projectPath.ios": "path/to/ios",
+        "cSpell.words": [
+          "Aquarek",
+          "Bouzedjar",
+          "Cabine",
+          "être",
+          "l'Algerie",
+          "l'ouest",
+          "locas",
+          "louée",
+          "maison",
+          "nuit",
+          "peut",
+          "prenom",
+          "raisonnable",
+          "Siahi"
+        ],
+        "java.configuration.updateBuildConfiguration": "disabled"
+      }
+      

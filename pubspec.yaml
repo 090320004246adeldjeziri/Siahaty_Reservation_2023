@@ -1,0 +1,106 @@
+name: cabina
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+dependencies:
+  device_preview: ^1.1.0
+  persistent_bottom_nav_bar_v2: ^4.2.8
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  # version firebase
+  firebase_core: ^2.12.0
+  firebase_auth: ^4.6.0 
+  firebase_storage: ^11.2.0 
+  cloud_firestore: ^4.7.0 
+  google_nav_bar: ^5.0.2
+  firebase_database: ^10.2.0
+  google_fonts: ^4.0.4
+  photo_view: ^0.14.0
+  flutter_screenutil: ^5.7.0
+  flutter_gif: ^0.0.4
+  carousel_slider: ^4.2.1
+  fluttertoast: ^8.2.1
+  path_provider: ^2.0.14
+  flutter_awesome_buttons: ^1.1.0
+  dots_indicator: ^3.0.0
+  image_picker: ^0.8.7+4
+  http: ^0.13.4
+  url_launcher: ^6.1.10
+  path: ^1.8.0
+  line_icons: ^2.0.1
+
+dev_dependencies:
+  flutter_native_splash: ^2.2.18
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter_native_splash:
+  color: "#42a5f5"
+  image: assets/images/
+  android_gravity: fill
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/images/
+  # - assets/images/k1.jpg
+  - icons/android/iconApp.jpg
+  - icons/ios/AppIcon.appiconset/
+  # - assets/images/h1.jpg
+  # - assets/images/h2.jpg
+  # - assets/images/h3.jpg
+  # - assets/images/h4.jpg
+  # - assets/images/h5.png
+  - assets/images/locas.png
+  - assets/images/profile.png
+  # - assets/images/h6.jpg
+  # - assets/images/h7.jpg
+  # - assets/images/h8.jpg
+  # - assets/images/h9.jpg
+  # - assets/images/h10.jpg
+  # - assets/images/b1.jpg
+  # - assets/images/b2.jpg
+  # - assets/images/b3.jpg
+  # - assets/images/b4.jpg
+  # - assets/images/b5.jpg
+  # - assets/images/b6.jpg
+  # - assets/images/b7.png
+  # - assets/images/b8.png
+  # - assets/images/b9.jpg
+  # - assets/images/b10.jpg
+  # - assets/images/r1.jpg
+  # - assets/images/r2.jpg
+  # - assets/images/r3.jpg
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900   
+    
